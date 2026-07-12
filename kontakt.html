@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt &amp; booking – Boas</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Boas</a>
+    <nav>
+      <button class="hamburger" aria-label="Åbn menu"><span></span><span></span><span></span></button>
+      <ul>
+        <li><a class="nav-link" href="index.html">Hjem</a></li>
+        <li><a class="nav-link" href="om-os.html">Om os</a></li>
+        <li><a class="nav-link" href="ydelser.html">Ydelser</a></li>
+        <li><a class="nav-link active" href="kontakt.html">Kontakt</a></li>
+        <li><a class="btn coral" href="kontakt.html">Book tid</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div class="wave-divider"></div>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow center">Kontakt &amp; booking</div>
+      <h1 class="center">Lad os finde <span class="hl">en tid til dig</span></h1>
+      <p class="lead center max-56" style="margin-top:18px;">Skriv til os, ring, eller kig forbi. Vi svarer så hurtigt, vi kan – som regel samme dag.</p>
+    </div>
+  </section>
+
+  <div class="wrap"><div class="wave-divider"></div></div>
+
+  <section>
+    <div class="wrap grid-2">
+      <div class="contact-form">
+        <h3 class="mb-m">Send en besked</h3>
+        <form action="mailto:kontakt@boas-frisor.dk" method="post" enctype="text/plain">
+          <div class="field">
+            <label for="navn">Navn</label>
+            <input type="text" id="navn" name="Navn" placeholder="Dit navn" required>
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="Email" placeholder="dig@eksempel.dk" required>
+          </div>
+          <div class="field">
+            <label for="telefon">Telefon</label>
+            <input type="tel" id="telefon" name="Telefon" placeholder="Dit telefonnummer">
+          </div>
+          <div class="field">
+            <label for="besked">Besked</label>
+            <textarea id="besked" name="Besked" placeholder="Fortæl os, hvad du gerne vil have hjælp til, og hvornår det passer dig" required></textarea>
+          </div>
+          <button type="submit" class="btn coral">Send besked</button>
+        </form>
+      </div>
+
+      <div>
+        <div class="card mb-m">
+          <h3 class="mb-s">Find os</h3>
+          <p><strong>Boas Frisørsalon</strong></p>
+          <p>Hovedgaden 12, 9000 Aalborg</p>
+          <p style="margin-top:14px;">Tlf: 12 34 56 78<br>kontakt@boas-frisor.dk</p>
+        </div>
+
+        <div class="card mb-m">
+          <h3 class="mb-s">Åbningstider</h3>
+          <div class="hours-row"><span>Mandag</span><span>Lukket</span></div>
+          <div class="hours-row"><span>Tirsdag – fredag</span><span>10 – 18</span></div>
+          <div class="hours-row"><span>Lørdag</span><span>9 – 14</span></div>
+          <div class="hours-row"><span>Søndag</span><span>Lukket</span></div>
+        </div>
+
+        <div class="map-blob">
+          Kort over Hovedgaden 12<br>tilføjes her
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>Boas</h4>
+        <p>Frisørsalon med plads til god stemning, gode historier og endnu bedre hår.</p>
+      </div>
+      <div>
+        <h4>Genveje</h4>
+        <ul>
+          <li><a href="om-os.html">Om os</a></li>
+          <li><a href="ydelser.html">Ydelser</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Åbningstider</h4>
+        <ul>
+          <li>Tirsdag–fredag: 10–18</li>
+          <li>Lørdag: 9–14</li>
+          <li>Søndag–mandag: Lukket</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Boas Frisørsalon</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
